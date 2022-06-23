@@ -9,6 +9,7 @@ export default function Entry(props)
     }
     function three()
     {
+        //test
         return(
             <div className="location-line">
 
