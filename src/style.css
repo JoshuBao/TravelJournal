@@ -1,20 +1,20 @@
 
 * {
     box-sizing: border-box;
-  
-  
 }
 
 .app{
+    display: flex;
 align-items: center;
+flex-direction: column;
 }
 .navBar{
 display:flex;
 justify-content: center;
 background-color: #F55A5A;
-background: #F55A5A;
+
 align-items: center;
-max-width: 60%;
+width: 550px;
 margin:auto;
 }
 .navBar--title{
@@ -28,6 +28,7 @@ font-size: 20px;
 line-height: 18px;
 letter-spacing: -0.075em;
 color: #FFFFFF;
+background-color: #F55A5A;
 
 }
 .globeIcon{
@@ -35,15 +36,84 @@ color: #FFFFFF;
     display:flex;
    
     color:"#AE2983" ;
-   
+   background-color: #F55A5A;
     top: 40px;
     size: 40px;
 }
 
+.entry{
+    /* background-color: rgb(165, 227, 23); */
+    display: flex;
+    flex-wrap: wrap;
+    height:231;
+    width: 550px;
+}
+.entry-image {
+    height:168;
+    width:125;
+    margin-top:20;
+    margin-left: 20;
+    border-radius: 5%;
+  
+    
+   
+}
 .map-link{
     
     cursor: pointer;
     text-decoration: underline;
-    max-width: 200px;
-    background-color: blue;
+    width: fit-content;
+    height: min-content;
+   margin-left: 10px;
+   margin-top: 30px;
+
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+color: #918E9B;
 }
+
+
+.info{
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.location-line{
+    width: 326;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.location{
+    margin-left: 4px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+}
+.pin{
+  
+    margin-top: 30px;
+  
+}
+.title{
+    
+}
+.desc{
+    max-width: 320px;
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+color: #2B283A;
+}
+
+
