@@ -51,6 +51,8 @@ background-color: #F55A5A;
 .entry-image {
     height:168;
     width:125;
+    /* object-position: auto;
+    object-fit:contain; */
     margin-top:20;
     margin-left: 20;
     border-radius: 5%;
